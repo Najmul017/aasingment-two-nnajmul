@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+    body{
+        width: 90%;
+    }
+    nav{
+        margin-top: 15px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
