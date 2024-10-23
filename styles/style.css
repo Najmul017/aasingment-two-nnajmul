@@ -8,14 +8,19 @@
     font-size: 1.15rem;    
     /* background: rgb(0, 0, 0); */
 }
+
 /* Shared Style */
-.common-text{
+.common-text, td{
     color: rgba(255, 255, 255, 0.5);
+    
 font-size: 16px;
 font-weight: 400;
 }
+main, section, nav{
+    width: 90%;
+    margin: 0 auto;
+}
 body{
-    width: 80%;
     margin: 0px auto;
     background-color: #000000;
     color: rgb(255, 255, 255);
@@ -205,7 +210,11 @@ background-color: rgb(34, 34, 34);
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+/* bmi section */
+.bmi{
+    text-align: center;
+    margin-top: 50px;
+}
 
 /* Team Section */
 .team{
@@ -246,7 +255,7 @@ border-radius: 18px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 250px;
-    
+    justify-content: space-around;
     gap: 30px;
     align-items: center;
     width: 80% ;
@@ -261,4 +270,51 @@ border-radius: 18px;
    width: 100%; !important;
   margin-top: 30px;
    border-radius: 18px;
+}
+.footer-card > h2{
+font-weight: 600;
+font-size: 2rem;
+}
+/* table */
+#calculator{
+   background:  #222222;   
+   border-radius: 12px;
+}
+table{
+    width: 350px;
+    margin-top: 25px;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    
+}
+.bmi-body{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.bmi-card{
+    flex-grow: 1;
+}
+
+ th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: inherit;
+    padding: 10px 5px;
+}
+.form{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+input, select {
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+background: rgba(255, 255, 255, 0.1);
+}
+#activity{
+    grid-column: 1 / -1; 
 }

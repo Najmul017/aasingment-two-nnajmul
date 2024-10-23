@@ -20,9 +20,22 @@
     .hamburger{
         display: block;
     }
-    .banner{
+    .banner, .bmi-body{
         flex-direction: column;
        justify-content: center;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .form input{
+        margin: 0 auto;
+        padding: 0;
+    }
+    table{
+        margin: 0 auto;
+        width: 350px;
     }
     .banner-pic{
         padding-right: 20px;
