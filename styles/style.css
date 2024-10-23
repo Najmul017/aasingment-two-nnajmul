@@ -101,6 +101,11 @@ background: rgb(230, 83, 60);
     align-items: center;
     position: relative;
 }
+.banner-t-style{
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-size: 5rem;
+}
 
 .banner-title{
     color: rgb(255, 255, 255);
