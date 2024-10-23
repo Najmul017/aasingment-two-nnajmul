@@ -242,3 +242,23 @@ border-radius: 18px;
     bottom: 40px;
     left: 25px;
 }
+.footer-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 250px;
+    
+    gap: 30px;
+    align-items: center;
+    width: 80% ;
+     
+    margin: 30px auto;
+}
+.footer-card h3{{
+    margin-top: 20px;
+}}
+#footer{
+    background: rgba(255, 255, 255, 0.1);
+   width: 100%; !important;
+  margin-top: 30px;
+   border-radius: 18px;
+}
